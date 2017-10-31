@@ -35,7 +35,7 @@ class index:
         except:
             pass
         proxies = Proxy_IP.select().order_by(Proxy_IP.timestamp)
-        updatetime = str(proxies[0].timestamp).split('.')[0]
+        updatetime = str(proxies[0].timestamp).split('.')[-1]
         data = []
         anonymity_level = {
             "transparent": 0,
