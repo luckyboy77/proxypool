@@ -4,3 +4,4 @@ requests==2.14.2
 beautifulsoup4==4.6.0
 html5lib==0.999
 simplejson==3.11.1
+web.py==0.40-dev1
